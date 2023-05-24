@@ -1,0 +1,46 @@
+.darkk{
+    background-color: black;
+    color:white;
+}
+.list-group{
+    height:0px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 1s;
+}
+.show{
+    height:210px;
+    overflow: hidden;
+    visibility: visible;
+
+}
+.bbg{
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    padding:30px;
+    z-index:5;
+    visibility: hidden;
+    opacity: 0;
+    transition:all 1s;
+}
+.wbg{
+    background:white;
+    padding:30px;
+    border-radius: 30px;
+}
+.show-modal{
+    visibility: visible;
+    opacity: 1;
+    display:block;
+}
+.sale{
+    padding: 100px 20px;
+    background-color:lightblue;
+}
+.darkk{
+    background-color: black;
+    color:white;
+    border:1px solid white;
+}

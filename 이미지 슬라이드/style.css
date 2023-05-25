@@ -1,0 +1,106 @@
+.darkk{
+    background-color: black;
+    color:white;
+}
+.list-group{
+    height:0px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 1s;
+}
+.show{
+    height:210px;
+    overflow: hidden;
+    visibility: visible;
+
+}
+.bbg{
+    width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    padding:30px;
+    z-index:5;
+    visibility: hidden;
+    opacity: 0;
+    transition:all 1s;
+}
+.wbg{
+    background:white;
+    padding:30px;
+    border-radius: 30px;
+}
+.show-modal{
+    visibility: visible;
+    opacity: 1;
+    display:block;
+}
+.sale{
+    padding: 100px 20px;
+    background-color:lightblue;
+}
+.darkk{
+    background-color: black;
+    color:white;
+    border:1px solid white;
+}
+.alert{
+    width:100vw;
+    position:fixed;
+    opacity: 0.9;
+    z-index: 10;
+}
+.imgContainer{
+    position:relative;
+    width:300vw;
+    transition: all 1s;
+}
+.imgBox{
+    width:100vw;
+    float:left;
+}
+.imgBox img{
+    width:100%;
+    height:800px;
+}
+.btnBox{
+    text-align: center;
+}
+.slideBtn1{
+    background-color:lightblue;
+    color:white;
+    margin-right:5%;
+    border:none;
+    border-radius: 100%;   
+}
+.slideBtn2{
+    background-color:lightblue;
+    margin-right:5%;
+    color:white;
+    border:none;
+    border-radius: 100%;   
+}
+.slideBtn3{
+    background-color:lightblue;
+    color:white;
+    border:none;
+    border-radius: 100%;   
+}
+.prev{
+    background-color:lightblue;
+    color:white;
+    position: fixed;
+    border:none;
+    border-radius: 50%;
+    left: 0vw;
+    top: 100vw;
+}
+.next{
+    background-color:lightblue;
+    color:white;
+    border:none;
+    border-radius: 50%;
+    position: fixed;
+    left: 95vw;
+    top: 100vw;
+}
